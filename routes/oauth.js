@@ -7,7 +7,7 @@ const axios = require('axios');
 const COZE_CONFIG = {
   client_id: process.env.COZE_CLIENT_ID,
   client_secret: process.env.COZE_CLIENT_SECRET,
-  token_url: 'https://api.coze.cn/api/permission/oauth2/token',
+  token_url: 'https://www.coze.cn/openapi/v2/oauth/token',
   redirect_uri: 'https://api.dreamwormhole.cloud/oauth/callback'
 };
 
